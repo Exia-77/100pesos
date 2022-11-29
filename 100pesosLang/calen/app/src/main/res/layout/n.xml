@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"   xmlns:tools="http://schemas.android.com/tools"
+ android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  tools:context=".MainActivity2">
+  <TextView
+ android:layout_width="fill_parent"   android:layout_height="wrap_content" 
+ android:text="HAPPY NEW YEAR" 
+  android:padding="10sp" 
+  android:textColor="@color/red"
+  android:textSize="50dp"
+android:background="@drawable/work"
+android:gravity="center_horizontal"
+android:id="@+id/greet"
+/> 
+<Button
+android:layout_below="@id/greet"
+ android:layout_width="fill_parent"   android:layout_height="60dp"
+  android:text="Exit" 
+  android:padding="10sp" 
+  android:textSize="25dp"
+android:gravity="center_horizontal"
+android:id="@+id/btn"
+/>
+ <VideoView
+android:layout_below="@id/btn"
+ android:id="@+id/simpleVideoView"           
+  android:layout_alignParentLeft="true"
+   android:layout_alignParentBottom="true"     android:layout_alignParentRight="true"
+        android:layout_width="fill_parent"
+         android:layout_height="fill_parent" />
+
+</RelativeLayout>

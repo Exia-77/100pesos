@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"   xmlns:tools="http://schemas.android.com/tools"
+ android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  tools:context=".MainActivity4"
+  android:background="@drawable/salute">
+  <TextView  
+ android:layout_width="fill_parent"   android:layout_height="wrap_content" 
+ android:text="Rizal Day" 
+  android:textColor="@color/white" 
+  android:textSize="50dp" 
+ android:layout_alignParentLeft="true"
+   android:layout_alignParentTop="true"     android:layout_alignParentRight="true" 
+ android:textStyle="italic" 
+android:gravity="center" 
+android:id="@+id/greet"
+/> 
+<Button 
+ android:layout_width="70dp"  
+  android:layout_height="60dp"
+  android:text="Exit" 
+  android:textSize="25dp"
+  android:layout_alignParentLeft="true"
+   android:layout_alignParentBottom="true"     android:layout_alignParentRight="true"
+android:gravity="center_horizontal"
+android:id="@+id/btn"
+/>
+
+</RelativeLayout>

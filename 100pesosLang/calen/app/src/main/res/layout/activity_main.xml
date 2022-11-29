@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout 
+android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@color/trans" android:layout_marginTop="70dp">
+<TableRow 
+android:background="@drawable/border">
+
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" 
+android:text="DECEMBER"
+ android:textColor="@color/white"
+  android:padding="10sp"
+ android:textSize="18sp" 
+ android:layout_weight="4" android:gravity="center_horizontal"/>
+ 
+</TableRow>
+>
+<TableRow 
+android:background="@color/colorGreen">
+
+<TextView
+ android:layout_width="0dp"   android:layout_height="wrap_content" android:text="Sun" 
+  android:padding="10sp" 
+  android:textColor="@color/red"
+  android:textSize="14sp"
+android:layout_weight="4" 
+android:background="@drawable/border"
+android:gravity="center_horizontal"
+/>
+
+<TextView 
+android:layout_width="0dp"  android:layout_height="wrap_content" 
+android:text="Mon" 
+android:background="@drawable/border"
+android:textColor="@android:color/white" android:padding="10sp"
+ android:textSize="14sp"  
+ android:layout_weight="4"  android:gravity="center_horizontal"/>
+ 
+<TextView 
+android:layout_width="0dp"  android:layout_height="wrap_content" 
+android:text="Tue"
+ android:textColor="@android:color/white" android:padding="10sp"
+ android:background="@drawable/border"
+ android:textSize="14sp"  
+ android:layout_weight="4"  android:gravity="center_horizontal"/>
+ 
+<TextView
+ android:layout_width="0dp" android:layout_height="wrap_content"
+ android:background="@drawable/border"
+ android:text="Wed"
+  android:textColor="@android:color/white" android:padding="10sp"
+  android:textSize="14sp" 
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+  
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="Thur"
+android:background="@drawable/border" android:textColor="@android:color/white" android:padding="10sp"
+ android:textSize="14sp"
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+  
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="Fri" android:textColor="@android:color/white" android:padding="10sp"
+ android:textSize="14sp"
+  android:layout_weight="4"
+  android:background="@drawable/border" android:gravity="center_horizontal"/>
+  
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="Sat" android:textColor="@android:color/white" android:padding="10sp"
+ android:textSize="14sp"
+  android:layout_weight="4" android:gravity="center_horizontal"
+  android:background="@drawable/border"/>
+  
+</TableRow>
+ <!--  table data  -->
+ 
+<TableRow>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="1"
+android:background="@drawable/border"
+ android:padding="10sp" 
+ android:textSize="12sp"
+  android:layout_weight="4" android:gravity="center_horizontal"
+  android:textColor="@color/red"
+  />
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="2"
+ android:padding="10sp" 
+ android:background="@drawable/border"
+ android:textSize="12sp" 
+ android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="3"
+ android:padding="10sp"
+  android:textSize="12sp" 
+  android:layout_weight="4"
+  android:background="@drawable/border" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="4" 
+android:background="@drawable/border"
+android:padding="10sp"
+ android:textSize="12sp" android:layout_weight="4" android:gravity="center_horizontal"
+ />
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="5"
+ android:padding="10sp" 
+ android:textSize="12sp"
+ android:background="@drawable/border" android:layout_weight="4" android:gravity="center_horizontal"/>
+ 
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="6"
+ android:padding="10sp"
+ android:background="@drawable/border" 
+ android:textSize="12sp"
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="7"
+android:background="@drawable/border"
+ android:padding="10sp"
+  android:textSize="12sp" 
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+</TableRow>
+<TableRow>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="8" 
+android:background="@drawable/border"
+android:padding="10sp" 
+android:textSize="12sp" 
+android:textColor="@color/red"
+android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="9"
+ android:padding="10sp" 
+ android:textSize="12sp"
+ android:background="@drawable/border" 
+ android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="10"
+android:background="@drawable/border"
+ android:padding="10sp" 
+ android:textSize="12sp" 
+ android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="11" android:background="@drawable/border"
+android:padding="10sp" 
+android:textSize="12sp" 
+android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="12"
+android:background="@drawable/border"
+ android:padding="10sp"
+  android:textSize="12sp"
+   android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="13"
+android:background="@drawable/border"
+ android:padding="10sp"
+  android:textSize="12sp" android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView
+ android:layout_width="0dp" android:layout_height="wrap_content" android:text="14"
+ android:background="@drawable/border"
+  android:padding="10sp"
+   android:textSize="12sp"
+    android:layout_weight="4" android:gravity="center_horizontal"/>
+</TableRow>
+<TableRow>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="15" 
+android:background="@drawable/border"
+android:textColor="@color/red"
+android:padding="10sp"
+ android:textSize="12sp"
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="16"
+android:background="@drawable/border"
+ android:padding="10sp" 
+ android:textSize="12sp" 
+ android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView
+ android:layout_width="0dp" android:layout_height="wrap_content" android:text="17"
+ android:background="@drawable/border"
+  android:padding="10sp" 
+  android:textSize="12sp" 
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="18"
+android:background="@drawable/border"
+ android:padding="10sp"
+  android:textSize="12sp"
+   android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="19" 
+android:background="@drawable/border"
+android:padding="10sp"
+ android:textSize="12sp" 
+ android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="20"
+android:background="@drawable/border"
+ android:padding="10sp" 
+ android:textSize="12sp" android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="21"
+android:background="@drawable/border"
+ android:padding="10sp"
+  android:textSize="12sp"
+   android:layout_weight="4" android:gravity="center_horizontal"/>
+</TableRow>
+<TableRow>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="22"
+android:background="@drawable/border" 
+android:textColor="@color/red"
+android:padding="10sp"
+ android:textSize="12sp" 
+ android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="23"
+android:background="@drawable/border" 
+android:padding="10sp"
+ android:textSize="12sp" 
+ android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="24"
+android:background="@drawable/border"
+ android:padding="10sp" 
+ android:textSize="12sp"
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+<Button 
+ android:layout_width="0dp"
+ android:id="@+id/pasko"
+  android:layout_height="wrap_content" android:text="25"
+ android:background="@drawable/border1"
+ android:textColor="@color/white"
+  android:padding="10sp"
+  android:textSize="12sp"
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="26"
+android:background="@drawable/border" 
+android:padding="10sp"
+ android:textSize="12sp" 
+ android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView
+ android:layout_width="0dp" android:layout_height="wrap_content" android:text="27"
+ android:background="@drawable/border"
+  android:padding="10sp" 
+  android:textSize="12sp"
+   android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="28"
+android:background="@drawable/border" 
+android:padding="10sp"
+ android:textSize="12sp" android:layout_weight="4" android:gravity="center_horizontal"/>
+</TableRow>
+<TableRow>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="29"
+android:background="@drawable/border" 
+android:padding="10sp" 
+android:textColor="@color/red"
+android:textSize="12sp" 
+android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="30"
+android:background="@drawable/border" 
+android:padding="10sp"
+ android:textSize="12sp"
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+<Button 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="31" 
+android:background="@drawable/border1"
+ android:textColor="@color/white"
+android:padding="10sp"
+ android:textSize="12sp"
+ android:id="@+id/rizal"
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView
+ android:layout_width="0dp" android:layout_height="wrap_content" android:text=""
+  android:padding="10sp" 
+  android:background="@drawable/border"
+  android:textSize="12sp" 
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text=""
+ android:padding="10sp" 
+ android:background="@drawable/border"
+ android:textSize="12sp"
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="" 
+android:padding="10sp"
+android:background="@drawable/border"
+ android:textSize="12sp" 
+ android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text=""
+ android:padding="10sp"
+ android:background="@drawable/border"
+  android:textSize="12sp"
+   android:layout_weight="4" android:gravity="center_horizontal"/>
+</TableRow>
+
+<TableRow 
+android:background="@drawable/border">
+
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" 
+android:text="JANUARY"
+ android:textColor="@color/white"
+  android:padding="10sp"
+ android:textSize="18sp" 
+ android:layout_weight="4" android:gravity="center_horizontal"/>
+ 
+</TableRow>
+
+<TableRow 
+android:background="@color/colorGreen">
+
+<TextView
+ android:layout_width="0dp"   android:layout_height="wrap_content" android:text="Sun" 
+  android:padding="10sp" 
+  android:textColor="@color/red"
+  android:textSize="14sp"
+android:layout_weight="4" 
+android:background="@drawable/border"
+android:gravity="center_horizontal"
+/>
+
+<TextView 
+android:layout_width="0dp"  android:layout_height="wrap_content" 
+android:text="Mon" 
+android:background="@drawable/border"
+android:textColor="@android:color/white" android:padding="10sp"
+ android:textSize="14sp"  
+ android:layout_weight="4"  android:gravity="center_horizontal"/>
+ 
+<TextView 
+android:layout_width="0dp"  android:layout_height="wrap_content" 
+android:text="Tue"
+ android:textColor="@android:color/white" android:padding="10sp"
+ android:background="@drawable/border"
+ android:textSize="14sp"  
+ android:layout_weight="4"  android:gravity="center_horizontal"/>
+ 
+<TextView
+ android:layout_width="0dp" android:layout_height="wrap_content"
+ android:background="@drawable/border"
+ android:text="Wed"
+  android:textColor="@android:color/white" android:padding="10sp"
+  android:textSize="14sp" 
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+  
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="Thur"
+android:background="@drawable/border" android:textColor="@android:color/white" android:padding="10sp"
+ android:textSize="14sp"
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+  
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="Fri" android:textColor="@android:color/white" android:padding="10sp"
+ android:textSize="14sp"
+  android:layout_weight="4"
+  android:background="@drawable/border" android:gravity="center_horizontal"/>
+  
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="Sat" android:textColor="@android:color/white" android:padding="10sp"
+ android:textSize="14sp"
+  android:layout_weight="4" android:gravity="center_horizontal"
+  android:background="@drawable/border"/>
+  
+</TableRow>
+ <!--  table data  -->
+ 
+ 
+<TableRow>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text=""
+android:background="@drawable/border"
+ android:padding="10sp" 
+ android:textSize="12sp"
+  android:layout_weight="4" android:gravity="center_horizontal"
+  android:textColor="@color/red"
+  />
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text=""
+ android:padding="10sp" 
+ android:background="@drawable/border"
+ android:textSize="12sp" 
+ android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text=""
+ android:padding="10sp"
+  android:textSize="12sp" 
+  android:layout_weight="4"
+  android:background="@drawable/border" android:gravity="center_horizontal"/>
+<Button
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="1" 
+android:background="@drawable/border1"
+ android:textColor="@color/white"
+ android:id="@+id/newyr"
+android:padding="10sp"
+ android:textSize="12sp" android:layout_weight="4" android:gravity="center_horizontal"
+ />
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="2"
+ android:padding="10sp" 
+ android:textSize="12sp"
+ android:background="@drawable/border" android:layout_weight="4" android:gravity="center_horizontal"/>
+ 
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="3"
+ android:padding="10sp"
+ android:background="@drawable/border" 
+ android:textSize="12sp"
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="4"
+android:background="@drawable/border"
+ android:padding="10sp"
+  android:textSize="12sp" 
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+</TableRow>
+<TableRow>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="5" 
+android:background="@drawable/border"
+android:padding="10sp" 
+android:textSize="12sp" 
+android:textColor="@color/red"
+android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="6"
+ android:padding="10sp" 
+ android:textSize="12sp"
+ android:background="@drawable/border" 
+ android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="7"
+android:background="@drawable/border"
+ android:padding="10sp" 
+ android:textSize="12sp" 
+ android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="8" android:background="@drawable/border"
+android:padding="10sp" 
+android:textSize="12sp" 
+android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="9"
+android:background="@drawable/border"
+ android:padding="10sp"
+  android:textSize="12sp"
+   android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="10"
+android:background="@drawable/border"
+ android:padding="10sp"
+  android:textSize="12sp" android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView
+ android:layout_width="0dp" android:layout_height="wrap_content" android:text="11"
+ android:background="@drawable/border"
+  android:padding="10sp"
+   android:textSize="12sp"
+    android:layout_weight="4" android:gravity="center_horizontal"/>
+</TableRow>
+<TableRow>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="12" 
+android:background="@drawable/border"
+android:textColor="@color/red"
+android:padding="10sp"
+ android:textSize="12sp"
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="13"
+android:background="@drawable/border"
+ android:padding="10sp" 
+ android:textSize="12sp" 
+ android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView
+ android:layout_width="0dp" android:layout_height="wrap_content" android:text="14"
+ android:background="@drawable/border"
+  android:padding="10sp" 
+  android:textSize="12sp" 
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="15"
+android:background="@drawable/border"
+ android:padding="10sp"
+  android:textSize="12sp"
+   android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="16" 
+android:background="@drawable/border"
+android:padding="10sp"
+ android:textSize="12sp" 
+ android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="17"
+android:background="@drawable/border"
+ android:padding="10sp" 
+ android:textSize="12sp" android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="18"
+android:background="@drawable/border"
+ android:padding="10sp"
+  android:textSize="12sp"
+   android:layout_weight="4" android:gravity="center_horizontal"/>
+</TableRow>
+<TableRow>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="19"
+android:background="@drawable/border" 
+android:textColor="@color/red"
+android:padding="10sp"
+ android:textSize="12sp" 
+ android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="20"
+android:background="@drawable/border" 
+android:padding="10sp"
+ android:textSize="12sp" 
+ android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="21"
+android:background="@drawable/border"
+ android:padding="10sp" 
+ android:textSize="12sp"
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView
+ android:layout_width="0dp" android:layout_height="wrap_content" android:text="22"
+ android:background="@drawable/border"
+  android:padding="10sp" 
+  android:textSize="12sp" 
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="23"
+android:background="@drawable/border"
+android:padding="10sp"
+ android:textSize="12sp" 
+ android:layout_weight="4"
+ android:id="@+id/national" android:gravity="center_horizontal"/>
+<TextView
+ android:layout_width="0dp" android:layout_height="wrap_content" android:text="24"
+ android:background="@drawable/border"
+  android:padding="10sp" 
+  android:textSize="12sp"
+   android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="25"
+android:background="@drawable/border" 
+android:padding="10sp"
+ android:textSize="12sp" android:layout_weight="4" android:gravity="center_horizontal"/>
+</TableRow>
+<TableRow>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="26"
+android:background="@drawable/border" 
+android:padding="10sp" 
+android:textColor="@color/red"
+android:textSize="12sp" 
+android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="27"
+android:background="@drawable/border" 
+android:padding="10sp"
+ android:textSize="12sp"
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="28"
+android:background="@drawable/border" 
+android:padding="10sp"
+ android:textSize="12sp"
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView
+ android:layout_width="0dp" android:layout_height="wrap_content" android:text="29"
+  android:padding="10sp" 
+  android:background="@drawable/border"
+  android:textSize="12sp" 
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="30"
+ android:padding="10sp" 
+ android:background="@drawable/border"
+ android:textSize="12sp"
+  android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text="31" 
+android:padding="10sp"
+ android:textSize="12sp"
+ android:background="@drawable/border" 
+ android:layout_weight="4" android:gravity="center_horizontal"/>
+<TextView 
+android:layout_width="0dp" android:layout_height="wrap_content" android:text=""
+ android:padding="10sp"
+ android:background="@drawable/border"
+  android:textSize="12sp"
+   android:layout_weight="4" android:gravity="center_horizontal"/>
+</TableRow>
+
+
+
+</TableLayout>
+</LinearLayout>
